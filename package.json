@@ -1,18 +1,19 @@
 {
-  "name": "bloc-frontend-project-starter",
+  "name": "bloctime",
   "version": "0.0.2",
-  "description": "Starter project for the Bloc Frontend Web Development",
+  "description": "Pomodoro time management application",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bloc/bloc-frontend-project-starter"
+    "url": "https://github.com/catravine/bloctime"
   },
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Bloc Inc",
+  "author": "Caroline Courtney",
   "license": "ISC",
   "dependencies": {
+    "firebase": "^3.3.0",
     "hapi": "~7.5.0",
     "path": "^0.4.9"
   },
